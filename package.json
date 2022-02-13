@@ -1,5 +1,5 @@
 {
-  "name": "@rtk-query/graphql-fetch",
+  "name": "rtk-query-graphql-fetch",
   "description": "It helps you to make queries to a server that is using graphql",
   "version": "1.0.0",
   "author": "Edison J. Padilla <edisonjpp@gmail.com>",

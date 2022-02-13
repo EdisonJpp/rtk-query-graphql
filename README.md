@@ -1,4 +1,4 @@
-# @rtk-query/graphql-fetch
+# rtk-query-graphql-fetch
 
 Provides the facility to make requests to a graphql server
 
@@ -7,8 +7,8 @@ Provides the facility to make requests to a graphql server
 ## Installation
 
 ```
-npm install @rtk-query/graphql-fetch
-yarn add @rtk-query/graphql-fetch
+npm install rtk-query-graphql-fetch
+yarn add rtk-query-graphql-fetch
 ```
 
 ## Features
@@ -30,7 +30,7 @@ A list of available properties can be found below. These must be passed to the c
 
 ```typescript
 import { createApi } from "@reduxjs/toolkit/query/react";
-import { graphqlFetch } from "@rtk-query/graphql-fetch";
+import { graphqlFetch } from "rtk-query-graphql-fetch";
 import gql from "graphql-tag";
 
 interface IFruits {
