@@ -1,14 +1,18 @@
-# rtk-query-graphql-fetch
+# rtk-query-graphql
 
 Provides the facility to make requests to a graphql server
+
+---
+
+[![NPM](https://nodei.co/npm/rtk-query-graphql.png)](https://npmjs.org/package/rtk-query-graphql)
 
 ---
 
 ## Installation
 
 ```
-npm install rtk-query-graphql-fetch
-yarn add rtk-query-graphql-fetch
+npm install rtk-query-graphql
+yarn add rtk-query-graphql
 ```
 
 ## Features
@@ -30,7 +34,7 @@ A list of available properties can be found below. These must be passed to the c
 
 ```typescript
 import { createApi } from "@reduxjs/toolkit/query/react";
-import { graphqlFetch } from "rtk-query-graphql-fetch";
+import { graphqlFetch } from "rtk-query-graphql";
 import gql from "graphql-tag";
 
 interface IFruits {
