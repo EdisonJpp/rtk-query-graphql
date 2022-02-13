@@ -1,11 +1,8 @@
 {
-  "name": "@rtk-query/graphql-",
+  "name": "@rtk-query/graphql-fetch",
   "description": "It helps you to make queries to a server that is using graphql",
   "version": "1.0.0",
-  "author": {
-    "name": "Edison J. Padilla",
-    "email": "edisonjpp@gmail.com"
-  },
+  "author": "Edison J. Padilla <edisonjpp@gmail.com>",
   "license": "MIT",
   "type": "module",
   "source": "src/index.ts",
@@ -45,5 +42,13 @@
     "rtk-query",
     "graphql",
     "graph"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdisonJpp/-rtk-query-graphql-fetch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EdisonJpp/-rtk-query-graphql-fetch/issues"
+  },
+  "homepage": "https://github.com/EdisonJpp/-rtk-query-graphql-fetch#readme"
 }
